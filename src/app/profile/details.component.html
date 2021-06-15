@@ -1,0 +1,11 @@
+<div>
+    <p style="display:inline"><img src={{account.avatar}} alt="My avatar" width="45" height="45" style="margin-bottom:20px;border-radius:50%;border:2px solid #555">
+    </p>
+    <h1 style="display:inline;padding-left:10px">My Profile</h1>
+</div>
+<p>
+    <strong>Name: </strong>{{account.firstNames}} {{account.lastName}}<br />
+    <strong>Username: </strong> {{account.username}} <br>
+    <strong>Email: </strong> {{account.email}}
+</p>
+<p><a routerLink="update">Update Profile</a></p>
